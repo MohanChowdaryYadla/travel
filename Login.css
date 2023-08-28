@@ -1,0 +1,167 @@
+/* src/styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('https://thumbs.dreamstime.com/b/happy-travel-woman-vacation-concept-funny-traveler-enjoy-her-trip-ready-to-adventure-happy-travel-woman-vacation-concept-118679424.jpg?w=768') no-repeat center/cover;
+  }
+  
+  .content {
+    text-align: center;
+    
+    margin-bottom: 2rem;
+  }
+  .content h1{
+    color: red;
+    
+  }
+  
+  .auth-options {
+    display: flex;
+  }
+  
+  .auth-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .auth-button:hover {
+    background-color: #2980b9;
+  }
+   
+
+
+   
+  .content {
+    text-align: center;
+    color: white;
+    margin-bottom: 2rem;
+  }
+  
+  .auth-options {
+    display: flex;
+  }
+  
+  
+  /* Styling for the TravelPackages component */
+.travel-packages {
+  margin-bottom: 450px;
+  margin-top: 0;
+  border: 1px solid #ccc;
+  padding: 20px;
+  display: flex;
+  
+}
+
+.package-category {
+  margin-bottom: 20px;
+}
+
+.package {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.package button{
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+} 
+
+
+
+
+
+/* Styling for the SignupPage component */
+.signup-container {
+  width: 50%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-left: 10px ;
+  border-radius: 18px;
+  background-color: rgba(220, 220, 220, 0.4);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.signup-container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #444444;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #333333;
+}
+
+.form-group button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #ff9900;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.form-group button:hover {
+  background-color: #cc7700;
+}
+
+.mohan {
+  /* Additional styles for the button with the class 'mohan' */
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+.mohan:hover {
+  background-color: #ff3300;
+}
+
+
+  
